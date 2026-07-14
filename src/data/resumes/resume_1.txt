@@ -1,0 +1,56 @@
+EARLY BIRD
+AI Engineer | Python · PyTorch · LangChain · LLMs · RAG · MLOps · AWS
+0300-1234567 · earlybird.ai@gmail.com | LinkedIn | GitHub | Portfolio | Lahore, Pakistan
+PROFESSIONAL SUMMARY
+Results-driven AI Engineer with hands-on experience designing, training, and deploying machine learning and large language model (LLM) 
+systems in production. Proficient across the modern AI stack — Python, PyTorch, LangChain, and vector databases — with cloud deployment 
+experience on AWS (EC2, S3, Lambda, SageMaker) and Hugging Face Spaces. Delivered measurable accuracy and latency improvements, 
+retrieval-augmented generation (RAG) pipelines, and LLM evaluation frameworks in Agile team environments. Passionate about trustworthy AI, 
+scalable ML architecture, and rigorous evaluation.
+TECHNICAL SKILLS
+Machine Learning & AI: Python, PyTorch, TensorFlow, Scikit-learn, Transformers, Fine-Tuning, Prompt Engineering, RAG, LangChain, 
+LangSmith
+NLP & LLM Tooling: OpenAI API, Grok API, Hugging Face, Vector Databases (Pinecone, Chroma, FAISS), Embeddings, Semantic Search
+Backend & APIs: FastAPI, Flask, Node.js, REST API Design, WebSockets, JWT Authentication
+Data & MLOps: Pandas, NumPy, Docker, MLflow, CI/CD Pipelines, Model Monitoring, Airflow, Experiment Tracking
+Cloud & DevOps: AWS (EC2, S3, Lambda, SageMaker), Hugging Face Spaces, Git, GitHub Actions, Nginx
+Databases: PostgreSQL, MongoDB, Redis, Vector Stores, Query Optimisation
+WORK EXPERIENCE
+AI Engineer | Nimbus AI Labs Sep 2025 – date | Lahore, PK
+• Designed and deployed a retrieval-augmented generation (RAG) pipeline using LangChain and a vector database, reducing hallucinated 
+responses by 35% and improving answer relevance across a 10,000+ document knowledge base.
+• Built and fine-tuned transformer-based NLP models for text classification and entity extraction, improving downstream accuracy by 22% 
+over the previous rule-based system.
+• Implemented LangSmith-based evaluation pipelines to track model accuracy, latency, and cost across releases, and integrated evaluation 
+gates into CI/CD so regressions were caught before deployment.
+• Collaborated in Agile sprints with product and backend teams; maintained 100% on-time sprint delivery across all release cycles.
+Junior Machine Learning Engineer | Vertex Analytics May 2024 – Sep 2024 | Lahore, PK
+• Shipped 4+ ML-powered features end-to-end: data preprocessing pipelines, model training in PyTorch/Scikit-learn, and FastAPI endpoints 
+for real-time inference.
+• Optimised model inference latency by 30% through batching, caching, and quantisation, enabling deployment on cost-efficient AWS 
+instances.
+• Integrated third-party LLM APIs (OpenAI, Hugging Face Inference) into internal tools, boosting analyst productivity by 18%.
+PROJECTS
+TRUTH-CHECKED RESUME TAILOR — Fabrication-Guarded AI Resume Assistant (LangChain + LangSmith) GitHub ↗
+• Built an AI pipeline that tailors resumes to job postings while guaranteeing zero fabricated claims, using a fact-extraction step, a vector 
+database for meaning-based matching, and a second-pass LLM verifier.
+• Tracked fabrication rate, requirement coverage, and cost via LangSmith across a 45-case evaluation set; deployed the app on Hugging Face 
+Spaces with a GitHub Actions gate blocking releases on regression.
+DOCUCHAT — RAG-Based Document Q&A Assistant (Full Stack) GitHub ↗
+• Built a retrieval-augmented chatbot over user-uploaded PDFs using LangChain, FAISS embeddings, and OpenAI's API, with a React 
+frontend and FastAPI backend.
+• Reduced average response latency by 25% through embedding caching and asynchronous request handling; deployed on AWS EC2 behind 
+Nginx.
+CHURNSENSE — Customer Churn Prediction Platform (ML + MLOps) GitHub ↗
+• Trained and deployed a gradient-boosted churn prediction model achieving 89% AUC, with automated retraining and drift monitoring via 
+MLflow.
+• Containerised the training and inference services with Docker and set up a GitHub Actions CI/CD pipeline for automated testing and 
+deployment.
+EDUCATION
+BS Computer Science — COMSATS University Islamabad, Lahore Campus CGPA: 3.45 / 4.0
+Relevant Coursework: Machine Learning · Deep Learning · Natural Language Processing · Data Structures & Algorithms · Database Systems · Distributed 
+Systems · Artificial Intelligence · Software Design & Architecture
+CERTIFICATIONS
+• Deep Learning Specialization · DeepLearning.AI (Coursera)
+• LangChain for LLM Application Development · DeepLearning.AI
+• AWS Certified Machine Learning – Specialty · Amazon Web Services

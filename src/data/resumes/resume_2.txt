@@ -1,0 +1,48 @@
+MUHAMMAD HUSNAIN 
+Full Stack Engineer  |  React.js · Next.js · Node.js · Express.js · MongoDB · AWS 
+0341-1222261  ·  husnainbhinder682@gmail.com  |  LinkedIn  |  GitHub  |  Portfolio  |  Lahore, Pakistan 
+ 
+PROFESSIONAL SUMMARY 
+Results-driven Full Stack Engineer with hands-on industry experience designing, building, and deploying end-to-end web applications. 
+Proficient across the complete stack — React.js, Next.js, Node.js, Express.js, MongoDB — with cloud deployment experience on AWS (EC2, 
+S3, CloudFront, Elastic Beanstalk). Delivered measurable performance improvements, REST API integrations, and reusable component 
+systems in Agile team environments. Passionate about scalable architecture, clean code, and continuous delivery. 
+TECHNICAL SKILLS 
+Frontend: React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Shadcn UI, Responsive Design, WCAG Accessibility 
+Backend: Node.js, Express.js, REST API Design, JWT Authentication, Zod Validation, Socket.io, Middleware Architecture, MVC Pattern 
+Databases: MongoDB, MongoDB Atlas, Mongoose ODM, MySQL, Database Schema Design, Query Optimisation, Indexing 
+AWS & Cloud: EC2, S3, CloudFront, Lambda, API Gateway, Elastic Beanstalk, IAM, RDS, Route 53, CloudWatch, Nginx Reverse Proxy 
+DevOps & Tools: Git, GitHub, GitHub Actions, CI/CD Pipelines, Docker (basic), PM2, Postman, Agile/Scrum, Code Reviews 
+Integrations: Stripe Payments, Google Maps API, RESTful APIs, JWT Auth Flows, CORS, Rate Limiting, dotenv Configuration 
+WORK EXPERIENCE 
+Full Stack Developer  |  BugMonks Sep 2025 – date|  Lahore, PK 
+• Engineered and deployed full-stack features using React.js + Node.js + MongoDB; built a reusable TypeScript component library adopted 
+across 3 production modules, reducing feature delivery time by 20% and eliminating ~30% redundant UI code. 
+• Designed and integrated RESTful APIs with Express.js, enforced request validation via Zod schema middleware, and secured endpoints with 
+JWT authentication — reducing auth-related bugs to zero. 
+• Participated in daily Agile standups, sprint planning, and peer code reviews; maintained 100% on-time sprint delivery across all development 
+cycles. 
+Junior Full Stack Developer  |  Adam Technologies May 2024 – Sep 2024  |  Lahore, PK 
+• Shipped 5+ production web applications end-to-end: built responsive React.js frontends and Node.js/Express.js backends with MongoDB; 
+improved Lighthouse scores by 18% via code-splitting, lazy-loading, and asset optimisation. 
+• Developed and maintained RESTful APIs and integrated third-party services (payment gateways, mapping APIs); boosted user engagement by 
+15% through accessible UI patterns and seamless backend integration. 
+PROJECTS 
+RIDEORA — Real-Time Ride-Hailing App (Full Stack MERN)  | GitHub ↗ 
+• Full stack: React.js frontend with real-time Socket.io map tracking, Node.js/Express.js backend, MongoDB Atlas database, Stripe payment 
+integration, JWT auth, and Google Maps API — deployed on AWS S3 + CloudFront + EC2 with Nginx. 
+• Optimised state management and component memoisation (22% faster load); Stripe + JWT auth flows improved transaction reliability by 12%. 
+JOB FINDER — Full Stack MERN Job Portal  | GitHub ↗ 
+• End-to-end MERN application: React.js role-based UI, Express.js REST API with JWT RBAC, MongoDB with optimised queries (15% throughput 
+gain), CORS + rate-limiting middleware, deployable on AWS Elastic Beanstalk + RDS. 
+SOCIETRIX — Society & Event Management Platform (Full Stack)  | GitHub ↗ 
+• Full stack MERN platform with multi-role dashboards, RESTful backend, MongoDB Atlas, and structured Git workflow (feature branches, PRs, 
+protected main); reduced admin overhead by 15% and approval cycle time by 2×. 
+EDUCATION 
+BS Software Engineering — COMSATS University Islamabad, Lahore Campus   CGPA: 3.13 / 4.0 
+Relevant Coursework: Web Technologies · Database Systems · Operating Systems · Computer Networks · OOP · Data Structures & Al gorithms · Software 
+Engineering · AI · Software Design & Architecture  
+CERTIFICATIONS 
+• Next.js Web Development – React Framework  ·  Udemy 
+• React Advanced with Backend APIs  ·  Coursera (Meta) 
+• Responsive Web Design & JavaScript  ·  freeCodeCamp

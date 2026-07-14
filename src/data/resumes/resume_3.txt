@@ -1,0 +1,45 @@
+MUHAMMAD AHMAD MUAVIA MEO 
+m.ahmad.mm2466@gmail.com | Lahore, Pakistan | linkedin.com/in/ahmad-muavia-879355331 | 
+github.com/Ahmad-Muavia | Cell: +923020049636 
+ 
+EDUCATION 
+Bachelor of Science — Data Science Sep 2024 – Expected May 2028 
+Punjab University College of Information Technology (PUCIT – FCIT), University of the Punjab, Lahore | 2nd 
+Year, 4 Semesters Completed 
+Relevant Coursework: 
+• Database Systems — Oracle SQL (joins, aggregates, date functions, subqueries, complex conditional  
+queries) 
+• Artificial Intelligence — Search algorithms: BFS, DFS, Best -First, IDDFS, A*, Minimax, Alpha -Beta 
+Pruning; Machine Learning: Decision Trees, C4.5 Algorithm, Random Forest, Linear Regression, Logistic  
+Regression, Gradient Descent 
+• Data Visualization — Power BI (DAX, time intelligence, Power Query, advanced analytics dashboards)  
+• Probability & Statistics — Descriptive statistics, probability distributions, hypothesis testing 
+ 
+TECHNICAL SKILLS 
+Languages SQL (Oracle), Python, C++ (basic), HTML, CSS 
+Data & Analytics Power BI (DAX · Power Query · Time Intelligence), Microsoft Excel, Pandas, NumPy  
+Tools & Design VS Code, Git, GitHub, Microsoft Office Suite, Canva 
+Soft Skills Analytical thinking, report writing, public communication, teamwork 
+ 
+PROJECTS 
+RAG-Based PDF Chatbot 
+Personal Project | Python · AI APIs · RAG 
+• Built a chatbot capable of ingesting PDF documents and answering user queries using retrieval augmented 
+generation (RAG) techniques and AI APIs. 
+• Demonstrated applied knowledge of document parsing, embedding-based retrieval, and conversational AI 
+interaction patterns. 
+ 
+Power BI Dashboard 
+Academic Project | Power BI, DAX, Power Query 
+• Designed an interactive multi-page dashboard to analyze turnaround time metrics and visualize KPIs for 
+data-driven decision-making. 
+• Applied DAX measures and Power Query transformations for ETL, enabling dynamic filterin g and time-
+based performance tracking. 
+ 
+AFFILIATIONS & ACHIEVEMENTS 
+Student Member — Co-Curricular Activities 2024 – Present 
+Punjab University College of Information Technology (PUCIT), Lahore 
+• Participated in the University Mini Olympics Cricket Tournament, demonstrating teamwork, discipline, 
+and commitment under competitive conditions. 
+• Engaged in collaborative academic environments within the BS Data Science program , contributing to 
+peer learning and group project work.
