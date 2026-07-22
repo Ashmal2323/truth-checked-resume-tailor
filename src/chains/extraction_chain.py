@@ -10,20 +10,19 @@ import os
 from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 
-from src.schemas.facts import FactsLedger
+from src.schemas.facts import FactsLedger 
+
 load_dotenv()
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-if not GOOGLE_API_KEY:
-    raise EnvironmentError(
-        "GOOGLE_API_KEY not found. Check your .env file."
-    )
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise EnvironmentError("GROQ_API_KEY not found. Check your .env file.")
 
-llm = ChatGoogleGenerativeAI(
-    model="gemini-flash-latest",
-    google_api_key=GOOGLE_API_KEY,
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
+    api_key=GROQ_API_KEY,
     temperature=0,
 )
 
@@ -41,6 +40,7 @@ STRICT RULES:
 - NEVER combine multiple claims into one fact — keep facts atomic (one skill, one result, one project each).
 - If a number or result is mentioned, extract it as a QUANTIFIED_RESULT fact.
 - Assign each fact a unique fact_id like 'fact_001', 'fact_002', etc.
+- Do NOT include any trailing empty objects, extra commas, or incomplete entries in the facts array. Every object in the array must have all four required fields filled in.
 
 {format_instructions}
 """),
@@ -58,7 +58,7 @@ def build_extraction_chain():
 
 import time
 
-def extract_facts_with_retry(resume_text: str, resume_id: str, max_retries: int = 1) -> FactsLedger:
+def extract_facts_with_retry(resume_text: str, resume_id: str, max_retries: int = 3) -> FactsLedger:
     """Runs extraction with a repair loop: if Gemini's free tier rate-limits us
     (common given the low free-tier request cap), we wait an appropriate amount
     before retrying, rather than hammering the API and burning through quota."""

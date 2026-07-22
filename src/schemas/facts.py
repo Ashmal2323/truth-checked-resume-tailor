@@ -36,7 +36,7 @@ class Fact(BaseModel):
     )
     content: str = Field(
         ...,
-        min_length=3,
+        min_length=1,
         max_length=500,
         description="The fact itself in plain language, e.g. 'Reduced reporting time by 30%'."
     )
