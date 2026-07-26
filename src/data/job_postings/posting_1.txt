@@ -1,0 +1,35 @@
+About the job
+We are hiring an AI Engineer to build production-grade AI features inside our enterprise products. This is not a research role. You will ship working systems: retrieval pipelines, agentic workflows, structured extraction, and LLM-backed services that real users depend on every day.
+
+You will work on features end to end, from problem framing and prototype through deployment, evaluation, and iteration.
+
+What you will do
+
+
+Build and maintain RAG pipelines, agentic systems, and LLM-powered services using Python, FastAPI, and modern vector stores (Pinecone, Chroma, pgvector, or similar).
+Design prompt strategies, evaluation harnesses, and guardrails for production reliability. Track quality with real metrics, not vibes.
+Integrate LLM APIs (OpenAI, Anthropic, open-source via Hugging Face or local inference) into existing product surfaces. Decide when to use which model based on cost, latency, and accuracy tradeoffs.
+Ship features behind feature flags, instrument them, and iterate based on user signal and eval results.
+Collaborate with backend engineers on data pipelines, with frontend engineers on integration, and with product on scoping. Communicate clearly in writing and in standups.
+Document what you build so that the next engineer can extend it without asking you.
+
+
+What we are looking for
+
+
+3 to 5 years of professional software engineering experience, with at least one year hands-on with LLMs or applied ML in a production setting.
+Strong Python. Comfort with FastAPI or a comparable framework, async patterns, and clean API design.
+Practical experience with at least one of: LangChain, LlamaIndex, LangGraph, CrewAI, or a custom agentic framework you can defend. We care more about depth than the specific tool.
+Working knowledge of vector databases, embedding models, chunking strategies, and the failure modes of retrieval (hallucination, stale context, retrieval-recall tradeoffs).
+SQL competence. PostgreSQL preferred. You can write a window function without searching for it.
+Familiarity with Docker, Git, and at least one cloud platform (AWS, GCP, or Azure).
+
+
+Nice to have
+
+
+Experience with healthcare data (HIPAA awareness).
+Fine-tuning or LoRA experience on open-source models.
+Background in evals: building benchmark sets, scoring frameworks, regression testing for LLM behavior.
+Experience with voice or multimodal pipelines.
+Open-source contributions or a public portfolio of agentic projects.
