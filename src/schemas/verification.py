@@ -6,11 +6,13 @@ for every generated bullet, checked against the real Facts Ledger.
 from pydantic import BaseModel, Field
 
 
+
 class VerificationResult(BaseModel):
     """The verdict for one generated bullet."""
 
     requirement_id: str
     bullet_text: str
+    source_fact_ids: list[str] = Field(default_factory=list)
     is_supported: bool = Field(
         ..., description="True only if every claim in the bullet is provable from the cited facts."
     )
@@ -21,7 +23,6 @@ class VerificationResult(BaseModel):
         default_factory=list,
         description="Specific phrases/claims in the bullet that could NOT be traced to a fact, if any."
     )
-
 
 class VerificationReport(BaseModel):
     resume_id: str

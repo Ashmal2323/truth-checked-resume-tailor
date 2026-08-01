@@ -1,0 +1,88 @@
+About the job
+About Jeeny:
+
+Jeeny is a mobile application that eases daily commuting and transportation. By connecting you with your preferred mode of transportation, we are fulfilling our aim of making mobility accessible, affordable, and flexible for all.
+
+We are a joint venture between MEIG (Middle East Internet Group), Rocket Internet, and IMENA. Jeeny was established in 2014 as Easy Taxi. However, in 2016, it was revamped as Jeeny to cater to other services. Currently, we are operational in Saudi Arabia and Jordan.
+
+We have offices in Riyadh, Jeddah, Madinah, Dammam, Khobar, Amman, Lahore, and Karachi.
+
+About the Role:
+
+We are looking for a highly skilled Senior DevOps Engineer to design, implement, and maintain scalable, secure, and highly available infrastructure. The ideal candidate will have strong experience in AWS cloud environments, CI/CD automation, monitoring, logging, database reliability, and distributed systems.
+
+This role requires ownership mindset, deep troubleshooting capability, and collaboration with engineering, security, and data teams to ensure platform stability, performance, and cost efficiency.
+
+Key Responsibilities:
+
+Cloud & Infrastructure
+
+Architect and manage highly available and scalable infrastructure on AWS
+Design secure VPC architecture, IAM policies, networking, and security controls
+Manage EC2, EKS (if applicable), RDS, S3, ELB/ALB, CloudFront, etc
+Optimize cloud cost and implement FinOps best practices
+Ensure disaster recovery and business continuity planning
+
+CI/CD & Automation
+
+Design and maintain CI/CD pipelines using Jenkins
+Implement automated build, test, and deployment workflows
+Integrate SonarQube for code quality gates
+Implement Infrastructure as Code (Terraform/CloudFormation preferred)
+Automate repetitive operational tasks
+
+Monitoring, Logging & Observability
+
+Manage ELK stack (Elasticsearch, Logstash, Kibana) for centralized logging
+Implement log retention and optimization strategies
+Configure and manage New Relic for APM and infrastructure monitoring
+Set up alerting and incident response mechanisms
+Improve system observability and SLO tracking
+
+Database & Messaging Systems
+
+Manage and optimize: MongoDB, MySQL, PostgreSQL, Redis, Kafka
+Ensure database high availability, replication, and backup strategies
+Perform performance tuning and troubleshooting
+Monitor message queue performance and reliability
+
+Security & Compliance
+
+Implement DevSecOps practices
+Ensure secure CI/CD pipelines
+Perform infrastructure hardening
+Work closely with security teams for vulnerability management
+Ensure compliance with data protection standards
+
+Reliability & Performance
+
+Lead incident management and root cause analysis
+Improve system reliability and uptime
+Implement auto-scaling and performance optimization strategies
+Define and monitor SLAs, SLOs, and KPIs
+
+Requirements
+
+Bachelor's degree in Computer Science, Engineering, or related field (or equivalent experience)
+5+ years in DevOps / SRE / Cloud Engineering roles
+Strong hands-on experience with AWS
+Experience managing production systems at scale
+Experience in high-traffic environments (ride-hailing / fintech / e-commerce preferred)
+
+Benefits
+
+What we offer:
+
+ Market Competitive Salary 💰 Hit the ground running with a salary that reflects your worth in today's market
+ Learn & Grow 📚 Level up with real-world projects, cross-functional job rotations, hands-on mentorship, and expert-led sessions tailored to your growth
+ International Exposure 🌍 Collaborate across borders with teams in KSA, Jordan, Pakistan, and UAE—experience a global career from day one
+ Health Insurance 🏥 Full health coverage so you can focus on your goals with peace of mind
+ OPD Coverage 🏥 Outpatient visits? We've got that covered for you
+ End of Service Benefit 💼 Loyalty pays off, long-term service comes with financial rewards
+ Internet Allowance 🌐 Work, stream, and stay in the loop with monthly internet support, whether you're learning, working, or just vibing
+ Fuel Allowance ⛽ Fuel your daily grind with a monthly fuel allowance
+ Learning & Development Allowance 🎓 Get a yearly budget for certifications, courses, or training—because investing in you is a no-brainer
+
+Company Culture
+
+Jeeny is an equal opportunity employer. We are committed to providing a workplace where all aspects of employment are solely based on merit. We value diversity and absolutely do not discriminate in any form based on race, color, ethnicity, nationality, religion, gender, age, or mental or physical disability.

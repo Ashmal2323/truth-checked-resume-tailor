@@ -1,0 +1,128 @@
+About the job
+*Job Post:* Full-Stack Web Developer
+
+
+
+*Company:* D Design Agency
+
+*Position:* Full-Stack Web Developer
+
+*Experience:* Minimum 2 years
+
+*Job Type:* Full-time / Contract
+
+*Location:* On-site/Lahore
+
+*Apply at:* [career@ddesignagency.com]
+
+
+
+*About the Role:*
+
+
+
+D Design Agency is hiring a skilled **Full-Stack Web Developer** with at least **2 years of professional experience**. The ideal candidate should be able to develop modern, secure, responsive, and scalable web applications from frontend to backend.
+
+
+
+*Required Skills:*
+
+
+
+* React.js, Next.js, TypeScript / JavaScript
+
+* Node.js or Python
+
+* REST API development and integration
+
+* PostgreSQL, MySQL, or other databases
+
+* Git and version control
+
+* Authentication and authorization
+
+* Responsive UI development
+
+* Web application deployment
+
+* Basic web security practices
+
+
+
+*Preferred Skills:*
+
+
+
+* Docker
+
+* Prisma / Drizzle ORM
+
+* Tailwind CSS
+
+* NestJS
+
+* Redis
+
+* AWS / Azure / Vercel
+
+* GitHub Actions
+
+* Playwright / Cypress
+
+* Sentry
+
+* AI-assisted tools such as GitHub Copilot, ChatGPT, Cursor, or Claude Code
+
+
+
+*Responsibilities:*
+
+
+
+* Develop and maintain frontend and backend web applications
+
+* Build clean, reusable, and scalable code
+
+* Create and integrate REST APIs
+
+* Manage database structures
+
+* Implement secure authentication and access control
+
+* Ensure responsive and mobile-friendly UI
+
+* Deploy, debug, test, and improve application performance
+
+* Follow best practices for code quality, security, and documentation
+
+
+
+*Requirements:*
+
+
+
+* BS-CS, BS-SE, BS-IT, BBIT, or equivalent qualification
+
+* Minimum 2 years of full-stack development experience
+
+* Strong understanding of modern web development workflows
+
+* Good problem-solving and debugging skills
+
+* Ability to work independently and meet deadlines
+
+* Strong communication and teamwork skills
+
+*How to Apply:*
+
+
+
+Interested candidates should send their *CV, portfolio, GitHub profile, and recent project links* to:
+
+
+
+*[career@ddesignagency.com]*
+
+
+
+*Subject:* Application for Full-Stack Web Developer

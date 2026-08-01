@@ -154,6 +154,7 @@ def verify_all_bullets(
             requirement_id=bullet.requirement_id,
             ledger=ledger,
         )
+        result.source_fact_ids = bullet.source_fact_ids  # carry through for later use (e.g. PDF sectioning)
         report.results.append(result)
 
     return report
