@@ -27,9 +27,7 @@ if not GROQ_API_KEY:
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
     api_key=GROQ_API_KEY,
-    temperature=0.2,  # slightly above 0 — some wording variation is fine for resume prose,
-                      # unlike extraction where we wanted pure determinism
-)
+    temperature=0, 
 
 parser = PydanticOutputParser(pydantic_object=GeneratedResumeContent)
 
