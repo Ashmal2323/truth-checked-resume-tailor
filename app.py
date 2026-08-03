@@ -9,6 +9,10 @@ import gradio as gr
 
 from src.pipeline import run_full_pipeline
 
+try:
+    import spaces
+except ImportError:
+    spaces = None
 
 def process_resume(resume_file, posting_text):
     """Gradio callback: takes an uploaded resume file + pasted job
@@ -89,7 +93,7 @@ CUSTOM_CSS = """
 }
 """
 
-with gr.Blocks(title="Truth-Checked Resume Tailor", theme=gr.themes.Soft(), css=CUSTOM_CSS) as demo:
+with gr.Blocks(title="Truth-Checked Resume Tailor") as demo:
     gr.Markdown("# 🛡️ Truth-Checked Resume Tailor", elem_id="header-title")
     gr.Markdown(
         "Upload your resume and paste a job posting. Every claim in the tailored "
@@ -141,4 +145,4 @@ with gr.Blocks(title="Truth-Checked Resume Tailor", theme=gr.themes.Soft(), css=
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
-    demo.launch(server_name="0.0.0.0", server_port=port)
+    demo.launch(server_name="0.0.0.0", server_port=port, theme=gr.themes.Soft(), css=CUSTOM_CSS)
