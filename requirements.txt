@@ -11,4 +11,3 @@ langchain-openai==0.2.9
 google-generativeai==0.1.0
 langchain-google-genai==2.0.7
 langchain-groq==0.2.1
-gradio==5.9.1
