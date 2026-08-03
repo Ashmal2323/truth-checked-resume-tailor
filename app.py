@@ -6,7 +6,7 @@ hosting), so this file explicitly binds to Render's expected host/port.
 
 import os
 import gradio as gr
-
+import spaces
 from src.pipeline import run_full_pipeline
 
 try:
@@ -14,11 +14,12 @@ try:
 except ImportError:
     spaces = None
 
+@spaces.GPU
 def process_resume(resume_file, posting_text):
     """Gradio callback: takes an uploaded resume file + pasted job
     posting text, runs the full pipeline, and returns all four
     deliverables for display."""
-
+    
     if resume_file is None:
         return "Please upload a resume file.", "", "", None
 
