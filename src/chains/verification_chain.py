@@ -98,12 +98,18 @@ def verify_bullet_with_retry(
     ledger: FactsLedger,
     max_retries: int = 3,
 ) -> VerificationResult:
+    """Verifies a single generated bullet against its cited source facts.
+
+    Runs the skeptical LLM check first, then applies the deterministic
+    keyword sanity check as a one-directional override: if the LLM
+    approves a bullet but the sanity check finds an invented number,
+    we downgrade to rejected. The reverse never happens — a rejection
+    from the LLM is never overturned by the sanity check. This is
+    intentional: a cheap regex check is trustworthy enough to catch an
+    obvious miss, but not sophisticated enough to overrule a considered
+    rejection.
+    """
     fact_lookup = {f.fact_id: f for f in ledger.facts}
-    cited_facts_text = "\n".join(
-        f"[{fid}] {fact_lookup[fid].content}"
-        for fid in source_fact_ids
-        if fid in fact_lookup
-    )
 
     chain = build_verification_chain()
     last_error = None
