@@ -4,7 +4,7 @@
 
 Most AI resume tools optimize for sounding impressive. This one is built around a harder constraint: every claim in the output must be independently verified against the candidate's real resume before it's shown to them. Nothing is invented — if a claim can't be traced back to a real fact, it's rejected or flagged as a gap, never fabricated.
 
-Live demo: https://huggingface.co/spaces/ashmal-mustafa-2323/truth-checked-resume-tailor
+Live demo: https://truth-checked-resume-tailor-aje8c4djfjh72edptxcuhe.streamlit.app/
 
 ## The Problem
 
@@ -43,7 +43,7 @@ The verification chain was calibrated across real failure cases during developme
 
 ## Tech Stack
 
-LangChain, LangSmith, Groq (llama-3.3-70b-versatile), Chroma, Hugging Face sentence-transformers for free local embeddings, Gradio for the web interface, Hugging Face Spaces for deployment, and GitHub Actions for CI.
+LangChain, LangSmith, Groq (llama-3.3-70b-versatile), Chroma, Hugging Face sentence-transformers for free local embeddings , Streamlit for the web interface, Streamlit Community Cloud for deployment... and GitHub Actions for CI.
 
 ## Honest Limitations
 
@@ -55,8 +55,10 @@ LangChain, LangSmith, Groq (llama-3.3-70b-versatile), Chroma, Hugging Face sente
 
 ## Running Locally
 
-Clone the repository, create a virtual environment, install requirements.txt, add your own GROQ_API_KEY and LANGCHAIN_API_KEY to a .env file, then run app.py.
+Clone the repository, create a virtual environment, install requirements.txt, add your own GROQ_API_KEY and LANGCHAIN_API_KEY to a .env file, then run streamlit run streamlit_app.py.
 
 ## Project Structure
 
 The src folder contains schemas (data models), chains (the LangChain pipeline steps), evaluation (the LangSmith test suite), and pipeline.py (which ties everything together). app.py is the Gradio web interface. tests contains automated tests, and .github/workflows contains the CI configuration.
+
+Note: The live demo runs on Hugging Face's free ZeroGPU tier, which has shared usage quotas. If you see a "quota exceeded" message, please try again shortly, or run the project locally (see instructions above).
