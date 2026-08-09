@@ -61,4 +61,3 @@ Clone the repository, create a virtual environment, install requirements.txt, ad
 
 The src folder contains schemas (data models), chains (the LangChain pipeline steps), evaluation (the LangSmith test suite), and pipeline.py (which ties everything together). app.py is the Gradio web interface. tests contains automated tests, and .github/workflows contains the CI configuration.
 
-Note: The live demo runs on Hugging Face's free ZeroGPU tier, which has shared usage quotas. If you see a "quota exceeded" message, please try again shortly, or run the project locally (see instructions above).
