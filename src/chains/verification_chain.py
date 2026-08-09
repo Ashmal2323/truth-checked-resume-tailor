@@ -110,6 +110,11 @@ def verify_bullet_with_retry(
     rejection.
     """
     fact_lookup = {f.fact_id: f for f in ledger.facts}
+    cited_facts_text = "\n".join(
+        f"[{fid}] {fact_lookup[fid].content}"
+        for fid in source_fact_ids
+        if fid in fact_lookup
+    )
 
     chain = build_verification_chain()
     last_error = None
